@@ -4,7 +4,7 @@ import { Button, ButtonGroup } from "@heroui/button";
 
 const Footer = () => {
     return (
-        <div className='h-[600px] mt-10'>
+        <div className='h-[600px] '>
             <footer className="footer  bg-[#404040] text-base-content p-10 h-[900px] md:h-[400px]">
                 <aside className='mt-6'>
                     <img src={logo} alt="" className='w-36' />
