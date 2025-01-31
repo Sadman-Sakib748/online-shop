@@ -8,7 +8,6 @@ const Delivered = () => {
     return (
       <div className="bg-[#f2f2f2] mt-6 text-center md:min-h-screen overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        {/* Animated Heading */}
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -18,10 +17,7 @@ const Delivered = () => {
         >
           The proof is in the data. Comparing 60 days pre and post live data for EGO’s UK website, Advanced Commerce delivered:
         </motion.h1>
-    
-        {/* Animated Cards */}
         <div className="grid grid-cols-1 text-center md:grid-cols-3 my-16 gap-8 justify-center">
-          {/* Card 1 */}
           <motion.div
             whileInView={{ x: 0, opacity: 1 }}
             initial={{ x: -100, opacity: 0 }}
@@ -33,8 +29,6 @@ const Delivered = () => {
             <h1 className="text-3xl text-orange-500 font-semibold">+15%</h1>
             <p>increased click-through <br /> rate</p>
           </motion.div>
-    
-          {/* Card 2 */}
           <motion.div
             whileInView={{ x: 0, opacity: 1 }}
             initial={{ x: -100, opacity: 0 }}
@@ -46,8 +40,6 @@ const Delivered = () => {
             <h1 className="text-3xl text-orange-500 font-semibold">+15%</h1>
             <p>increased conversion <br /> rate</p>
           </motion.div>
-    
-          {/* Card 3 */}
           <motion.div
             whileInView={{ x: 0, opacity: 1 }}
             initial={{ x: -100, opacity: 0 }}
@@ -60,8 +52,6 @@ const Delivered = () => {
             <p>increased AOV per user</p>
           </motion.div>
         </div>
-    
-        {/* Animated Button */}
         <motion.div
           whileInView={{ y: 0, opacity: 1 }}
           initial={{ y: 50, opacity: 0 }}
@@ -75,11 +65,6 @@ const Delivered = () => {
         </motion.div>
       </div>
     </div>
-    
-    
-
-
-
 
     );
 };

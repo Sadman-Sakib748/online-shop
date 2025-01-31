@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import logo from '../../../public/asset/AC-LOGO.png'
-import { Button, ButtonGroup } from "@heroui/button";
+import { Button,  } from "@heroui/button";
 
 const Footer = () => {
     return (
