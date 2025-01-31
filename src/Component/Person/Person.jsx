@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Person = () => {
     return (
 
-        <div className="grid md:grid-cols-2 grid-cols-1 p-10 my-10 min-h-screen max-w-full text-center md:text-start overflow-hidden">
+        <div className="grid md:grid-cols-2 grid-cols-1 p-10 my-10 min-h-screen max-w-full text-start md:text-start overflow-hidden">
             <motion.div
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: 50 }}
@@ -12,7 +12,7 @@ const Person = () => {
                 className="flex-col px-5"
             >
                 <h6 className="text-orange-600 font-semibold">What we do</h6>
-                <h2 className="text-4xl font-semibold my-4 py-8 text-black">
+                <h2 className="md:text-4xl text-2xl font-semibold my-4 py-4 text-black">
                     Three functions in one <br /> easy to use platform: <br /> site search, online <br /> merchandising and <br /> personalisation
                 </h2>
                 <button className="text-orange-700 font-medium">Read our story</button>
@@ -25,7 +25,7 @@ const Person = () => {
                 viewport={{ once: false, amount: 0.2 }}
                 className="px-11"
             >
-                <h1 className="text-xl text-red-500">
+                <h1 className="md:text-xl text-start mt-28 w-full text-red-500">
                     Our highly-automated system with a best-in-class user interface is the only platform designed for eCommerce merchandisers. We’re your one-stop shop for online merchandising, full site search functionality and real-time personalisation.
                 </h1>
                 <p className="my-8 text-gray-700">
