@@ -13,7 +13,7 @@ const Banner = () => {
           transition={{ type: "spring", stiffness: 100, damping: 10 }}
           viewport={{ once: false, amount: 0.2 }}
         >
-          <h1 className="text-5xl font-bold leading-tight">
+          <h1 className="md:text-5xl font-bold leading-tight">
             The Gold Standard for Online Merchandising
           </h1>
           <p className="mt-4 text-lg">
