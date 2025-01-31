@@ -6,6 +6,8 @@ import Merchandising from '../../Merchandising/Merchandising';
 import Person from '../../Person/Person';
 import SectionImage from '../../SectionImage/SectionImage';
 import Graphene from '../../Graphene/Graphene';
+import Delivered from '../../Delivered/Delivered';
+import Newest from '../../Newest/Newest';
 
 const Home = () => {
     return (
@@ -16,6 +18,8 @@ const Home = () => {
            <Person></Person>
            <SectionImage></SectionImage>
            <Graphene></Graphene>
+           <Delivered></Delivered>
+           <Newest></Newest>
            </div>
         </div>
     );
