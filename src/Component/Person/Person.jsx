@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import {Button} from "@heroui/react";
 const Person = () => {
     return (
 
@@ -15,7 +15,8 @@ const Person = () => {
                 <h2 className="md:text-4xl text-2xl font-semibold my-4 py-4 text-black">
                     Three functions in one <br /> easy to use platform: <br /> site search, online <br /> merchandising and <br /> personalisation
                 </h2>
-                <button className="text-orange-700 font-medium">Read our story</button>
+              
+                <Button className="text-orange-700 font-medium border-b-2 border-black" color="primary">Button</Button>
             </motion.div>
 
             <motion.div

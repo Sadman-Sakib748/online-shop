@@ -1,4 +1,3 @@
-import { Button } from "@heroui/react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 const Banner = () => {
@@ -19,7 +18,7 @@ const Banner = () => {
         <p className="mt-4 text-lg">
           We combine site search, online visual merchandising, and real-time personalization in one easy-to-use platform for eCommerce stores, helping retailers compete online.
         </p>
-        <Link href="#">
+        <Link to="/graphenehc">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
